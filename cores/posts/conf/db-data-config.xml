@@ -1,0 +1,10 @@
+<dataConfig>
+    <dataSource driver="org.postgresql.Driver" url="jdbc:postgresql://database-container-name-or-address:5432/database-name?useUnicode=true&#038;characterEncoding=UTF-8" user="postgres" password="secretpassword" />
+    <document>
+        <entity name="add-name-here" query="select * from table-name">
+            <field column="id" name="id" />
+            <field column="name" name="name" />
+        </entity>
+    </document>
+</dataConfig>
+
